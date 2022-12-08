@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import os
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",page_icon="🦋")
 
 st.title("Bachelor of Science in Data Science - FIU KFSCIS")
 st.subheader("Distribution of the Required Subject Areas in Different Data Science Programs")

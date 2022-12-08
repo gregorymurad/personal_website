@@ -10,7 +10,7 @@ import pandas as pd
 import plotly.express as px
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",page_icon="🦋",)
 
 page_bg_img = f"""
 <style>
@@ -51,10 +51,17 @@ with col2:
 with col3:
     st.title("Mariah Carey")
     st.subheader("The Butterfly Project 🦋")
+
 with col4:
     st.write("")
 st.markdown("---")
-
+st.markdown("#### Get to know more about Mariah Carey's incredible discography."
+            " With 19 #1 hits (18 self penned), Mariah officially holds "
+            "the record for the most chart-topping singles by a solo artist,"
+            " a female songwriter, and a female producer. Mariah has also"
+            " broken the record for any superstar in US history after "
+            "spending a total record of 87 weeks at #1.")
+st.markdown("---")
 
 
 with open("discography.json","r") as read_file:

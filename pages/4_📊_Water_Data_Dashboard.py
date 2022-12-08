@@ -6,7 +6,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide",page_icon="🦋")
 
 # import base64
 # @st.experimental_memo

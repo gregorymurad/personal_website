@@ -11,7 +11,7 @@ import plotly.express as px
 st.set_page_config(layout="wide",page_icon="🦋",)
 
 st.title("Research 🤖")
-
+st.markdown("---")
 st.sidebar.markdown("**Gregory Murad Reis, PhD**")
 st.sidebar.write("[Professor Webpage](https://www.cis.fiu.edu/faculty-staff/reis-gregory/)")
 st.sidebar.write("+1(305)348-7852")
