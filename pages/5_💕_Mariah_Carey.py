@@ -1,7 +1,9 @@
 import json
 import re
+import nltk
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
+nltk.download("punkt")
 import streamlit as st
 import apis
 import pandas as pd
@@ -240,6 +242,7 @@ for j in discography["albums"]:
 writers_freq = FreqDist(writers)
 most_common_writers = writers_freq.most_common()
 generate_plot(most_common_writers, "Most Populars Writers")
+
 st.markdown("---")
 st.sidebar.image("Images/landscape.png")
 st.sidebar.markdown("**Gregory Murad Reis, PhD**")
