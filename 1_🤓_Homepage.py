@@ -26,10 +26,11 @@ st.sidebar.write("+1(305)348-7852")
 
 
 
-st.markdown("My name is Gregory Murad Reis, I am an Assistant Teaching Professor "
-            "at FIU and a Researcher at the Institute of Environment. I study "
-            "the ways we can use Computer Science and Robotics to help solve the "
-            "biggest challenges in the marine environment.")
+st.markdown("""My name is Gregory Murad Reis, I am an **Assistant Teaching Professor** 
+            at FIU and a **Researcher** at the Institute of Environment. I study 
+            the ways we can use Computer Science and Robotics to help solve the 
+            biggest challenges in the marine environment. \n \n I have published papers in the areas of Marine Robotics and Artificial Intelligence. I also
+            develop curriculum in robotics for the K12 system in the USA and Brazil.""")
 st.markdown("---")
 def make_grid(cols, rows):
     grid = [0] * cols
