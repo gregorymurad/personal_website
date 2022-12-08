@@ -3,7 +3,6 @@ import re
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
-nltk.download('stopwords',download_dir="Logs")
 #from wordcloud import wordcloud
 import streamlit as st
 import apis
