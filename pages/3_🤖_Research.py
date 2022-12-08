@@ -34,4 +34,7 @@ st.markdown("""
 - **PhD Fellow** - **CAPES (Coordination for the Improvement of Higher Education Personnel)** - Augmented Terrain-Based Navigation To Enable Persistent Autonomy For Underwater Vehicles In GPS-Denied Environments - **$146,004.10** - August 2014 - Summer 2018
 """)
 st.markdown("---")
-st.subheader("Mentoring")
+st.subheader("Planned Infrastructure")
+
+st.image("Images/3_robot_4.png",use_column_width=True)
+st.caption("Network of autonomous marine vehicles, buoys, and aerial drones for real-time environmental monitoring.")
