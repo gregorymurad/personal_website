@@ -1,10 +1,5 @@
 import streamlit as st
-import numpy as np
 import pandas as pd
-from typing import List
-import pydeck as pdk
-from PIL import Image
-import matplotlib.pyplot as plt
 import plotly.express as px
 
 st.set_page_config(layout="wide",page_icon="🦋",)
