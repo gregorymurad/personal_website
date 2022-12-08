@@ -1,10 +1,9 @@
-import json, tempfile
+import json
 import re
 import nltk
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
-nltk.download('stopwords',download_dir=tempfile.gettempdir())
-nltk.data.path.append(tempfile.gettempdir())
+# nltk.download('stopwords')
 # from wordcloud import wordcloud
 import streamlit as st
 import apis
