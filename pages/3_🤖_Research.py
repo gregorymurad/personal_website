@@ -27,11 +27,11 @@ st.markdown("---")
 st.subheader("Research Grants and Awards")
 st.markdown("""
 - **Excellence in Teaching** - Best Teaching Faculty of 2022
-- **Senior Personnel** - **NSF (National Science Foundation)** - CREST Phase II: Center for Aquatic Chemistry and Environment (CAChE) - $5,000,000.00 - August 2021 - July 2026
-- **Co-PI** - **DoD (US Department of Defense)** - Acquisition of a Combined Aerial and Underwater Motion Capture System - $600,000.00 - April 2021 - March 2023
-- **Co-I/Senior Investigator** - **NSF (National Science Foundation)** - RET in Engineering and Computer Science SITE: Research Experience for Teachers on Cyber-Enabled Technologies - $600,000.00 - March 2021 - February 2024 Award Info
-- **Co-PI** - **Microsoft Philanthropies** - Development of Teacher Trainings and Professional Workshops in Robotics partnered with nonprofit Miami EdTech, local chapter of CS Teacher's Association, and Miami-Dade County Public Schools - $195,000.00 - May 2020 - May 2022
-- **PhD Fellow** - **CAPES (Coordination for the Improvement of Higher Education Personnel)** - Augmented Terrain-Based Navigation To Enable Persistent Autonomy For Underwater Vehicles In GPS-Denied Environments - $146,004.10 - August 2014 - Summer 2018
+- **Senior Personnel** - **NSF (National Science Foundation)** - CREST Phase II: Center for Aquatic Chemistry and Environment (CAChE) - **$5,000,000.00** - August 2021 - July 2026
+- **Co-PI** - **DoD (US Department of Defense)** - Acquisition of a Combined Aerial and Underwater Motion Capture System - **$600,000.00** - April 2021 - March 2023
+- **Co-I/Senior Investigator** - **NSF (National Science Foundation)** - RET in Engineering and Computer Science SITE: Research Experience for Teachers on Cyber-Enabled Technologies - **$600,000.00** - March 2021 - February 2024 Award Info
+- **Co-PI** - **Microsoft Philanthropies** - Development of Teacher Trainings and Professional Workshops in Robotics partnered with nonprofit Miami EdTech, local chapter of CS Teacher's Association, and Miami-Dade County Public Schools - **$195,000.00** - May 2020 - May 2022
+- **PhD Fellow** - **CAPES (Coordination for the Improvement of Higher Education Personnel)** - Augmented Terrain-Based Navigation To Enable Persistent Autonomy For Underwater Vehicles In GPS-Denied Environments - **$146,004.10** - August 2014 - Summer 2018
 """)
 st.markdown("---")
 st.subheader("Mentoring")

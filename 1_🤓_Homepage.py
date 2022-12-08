@@ -71,7 +71,7 @@ This special covered the relentless efforts to rescue Biscayne Bay in Florida.
  Researchers Dr Todd Crowl, Dr Gregory Reis, Bradley Schonhoff and Daniel Correa from
   FIU are working together to develop new technologies in Robotics and Data Science 
   to investigate the factors that could have contributed to the massive fish kill. 
-  This special was aired on WPLG Local 10 News in Miami, FL, on Friday, April 2nd at 5:30pm.
+  This special was aired on WPLG Local 10 News in Miami, FL, on Friday, April 2nd at 5:30pm. [Source](https://www.local10.com/news/local/2021/04/02/saving-biscayne-bay-researchers-worry-about-risk-of-another-fish-kill-this-summer/)
 """)
 
 # ROW 2
