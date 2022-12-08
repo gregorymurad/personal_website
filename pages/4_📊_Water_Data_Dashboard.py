@@ -291,7 +291,7 @@ def mission(dataset):
         st.image(image4, caption="Network of autonomous marine vehicles, buoys, and aerial drones for real-time environmental monitoring.")
 
 
-
+st.sidebar.image("Images/landscape.png")
 st.sidebar.header("Datasets")
 
 
@@ -352,8 +352,10 @@ elif loc_option == "Little River":
             var = locals()['lr_' + ds_option]
             mission(var)
 
-st.sidebar.subheader("Contact Us")
+st.markdown("---")
+
 st.sidebar.markdown("**Gregory Murad Reis, PhD**")
-st.sidebar.write("[My website](https://www.gregoryreis.com)")
+st.sidebar.write("[Professor's Webpage](https://www.cis.fiu.edu/faculty-staff/reis-gregory/)")
+st.sidebar.write("[Linkedin](https://www.linkedin.com/in/gregorymurad)")
 st.sidebar.write("+1(305)348-7852")
 

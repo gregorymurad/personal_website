@@ -6,8 +6,11 @@ st.set_page_config(layout="wide",page_icon="🦋",)
 
 st.title("Teaching 🏫")
 
+st.markdown("---")
+st.sidebar.image("Images/landscape.png")
 st.sidebar.markdown("**Gregory Murad Reis, PhD**")
-st.sidebar.write("[Professor Webpage](https://www.cis.fiu.edu/faculty-staff/reis-gregory/)")
+st.sidebar.write("[Professor's Webpage](https://www.cis.fiu.edu/faculty-staff/reis-gregory/)")
+st.sidebar.write("[Linkedin](https://www.linkedin.com/in/gregorymurad)")
 st.sidebar.write("+1(305)348-7852")
 
 st.subheader("Teaching Evaluation")
