@@ -55,7 +55,7 @@ mygrid[0][2].markdown("""
 
 # ROW 1
 mygrid[1][0].write("""
-Teaching Excellent Award 2022 - Award received by the Knight Foundation School of Computing and Information Sciences
+Teaching Excellence Award 2022 - Award received by the Knight Foundation School of Computing and Information Sciences
 at Florida International University, Miami, FL, on December 6th 2022.
 """)
 
