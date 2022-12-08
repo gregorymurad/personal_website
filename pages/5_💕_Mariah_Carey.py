@@ -1,14 +1,11 @@
 import json
 import re
-import nltk
 from nltk.tokenize import word_tokenize
 from nltk.probability import FreqDist
-#from wordcloud import wordcloud
 import streamlit as st
 import apis
 import pandas as pd
 import plotly.express as px
-#from streamlit_player import st_player
 
 
 st.set_page_config(layout="wide")
