@@ -27,7 +27,7 @@ def plot_charts(df,course_name):
     "paper_bgcolor": "rgba(0, 0, 0,0)",
     })
     course_fig.update_layout(title=course_name,
-                      xaxis_title='Semesters',
+                      xaxis_title='',
                       yaxis_title='Score',
                       title_font_color="#74DCBE",
                       title_font_size=20,
