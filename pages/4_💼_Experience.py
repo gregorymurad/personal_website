@@ -89,7 +89,7 @@ mygrid[4][2].markdown("""
 
 # ROW 5
 mygrid[5][0].markdown("""
-2013-2014
+2013 - 2014
 """)
 
 mygrid[5][1].markdown("""
