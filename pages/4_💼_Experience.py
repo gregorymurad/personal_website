@@ -32,7 +32,7 @@ mygrid[0][1].markdown("""
 """)
 
 mygrid[0][2].markdown("""
-Knight Foundation School of Computing and Information Sciences, FIU, USA 🇺🇸
+[Knight Foundation School of Computing and Information Sciences](https://www.cis.fiu.edu/), FIU, USA 🇺🇸
 """)
 
 # ROW 1
@@ -45,7 +45,7 @@ mygrid[1][1].markdown("""
 """)
 
 mygrid[1][2].markdown("""
-The Institute of Environment, FIU, USA 🇺🇸
+[The Institute of Environment](https://crestcache.fiu.edu/), FIU, USA 🇺🇸
 """)
 
 # ROW 2
@@ -58,7 +58,7 @@ mygrid[2][1].markdown("""
 """)
 
 mygrid[2][2].markdown("""
-The UKG Academy for Computer Science Education, FIU, USA 🇺🇸
+[The UKG Academy for Computer Science Education](https://academy.cis.fiu.edu/), FIU, USA 🇺🇸
 """)
 
 # ROW 3
@@ -71,7 +71,7 @@ mygrid[3][1].markdown("""
 """)
 
 mygrid[3][2].markdown("""
-Knight Foundation School of Computing and Information Sciences, FIU, USA 🇺🇸
+[Knight Foundation School of Computing and Information Sciences](https://www.cis.fiu.edu/), FIU, USA 🇺🇸
 """)
 
 # ROW 4
@@ -84,7 +84,7 @@ mygrid[4][1].markdown("""
 """)
 
 mygrid[4][2].markdown("""
-Motion, Robotics, and Automation Laboratory, FIU, USA 🇺🇸
+[Motion, Robotics, and Automation Laboratory](https://robotics.cs.fiu.edu/robotics/), FIU, USA 🇺🇸
 """)
 
 # ROW 5
@@ -97,7 +97,7 @@ mygrid[5][1].markdown("""
 """)
 
 mygrid[5][2].markdown("""
-Technology and Exact Sciences Institute, Federal University of Lavras, Brazil 🇧🇷
+[Technology and Exact Sciences Institute](https://icet.ufla.br/), Federal University of Lavras, Brazil 🇧🇷
 """)
 
 # ROW 6
@@ -110,7 +110,7 @@ mygrid[6][1].markdown("""
 """)
 
 mygrid[6][2].markdown("""
-Dez Real Estate LLC, Brazil 🇧🇷
+[Dez Real Estate LLC](https://www.diariocidade.com/mg/lavras/guia/dez-imobiliaria-ltda-10874102000190/), Brazil 🇧🇷
 """)
 
 st.markdown("---")
@@ -128,7 +128,7 @@ mygrid2[0][1].markdown("""
 """)
 
 mygrid2[0][2].markdown("""
-Knight Foundation School of Computing and Information Sciences, FIU, USA 🇺🇸
+[Knight Foundation School of Computing and Information Sciences](https://www.cis.fiu.edu/), FIU, USA 🇺🇸
 """)
 
 # ROW 1
@@ -141,7 +141,7 @@ mygrid2[1][1].markdown("""
 """)
 
 mygrid2[1][2].markdown("""
-Engineering Department, Federal University of Lavras, Brazil 🇧🇷
+[Engineering Department](https://sigaa.ufla.br/sigaa/public/programa/portal.jsf?lc=pt_BR&id=1801), Federal University of Lavras, Brazil 🇧🇷
 """)
 
 # ROW 2
@@ -154,7 +154,7 @@ mygrid2[2][1].markdown("""
 """)
 
 mygrid2[2][2].markdown("""
-Computer Science Department, Federal University of Lavras, Brazil 🇧🇷
+[Technology and Exact Sciences Institute](https://icet.ufla.br/graduacao/ciencia-computacao-bacharelado), Federal University of Lavras, Brazil 🇧🇷
 """)
 
 st.markdown("---")
