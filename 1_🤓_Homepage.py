@@ -32,6 +32,7 @@ st.markdown("""My name is Gregory Murad Reis, I am an **Assistant Teaching Profe
             biggest challenges in the marine environment. \n \n I have published papers in the areas of Marine Robotics and Artificial Intelligence. I also
             develop curriculum in robotics for the K12 system in the USA and Brazil.""")
 st.markdown("---")
+st.header("In the Media")
 def make_grid(cols, rows):
     grid = [0] * cols
     for i in range(cols):
@@ -39,7 +40,7 @@ def make_grid(cols, rows):
             grid[i] = st.columns(rows)
     return grid
 
-mygrid = make_grid(4, (2, 2, 2))
+mygrid = make_grid(4, (2, 2, 2, 2))
 
 # ROW 0
 mygrid[0][0].markdown("""
@@ -54,10 +55,19 @@ mygrid[0][2].markdown("""
 #### Interview to WPLG Miami - Saving Biscayne Bay
 """)
 
+mygrid[0][3].markdown("""
+#### Board of Trustees Meeting - Building an Inspiring Future
+""")
+
 # ROW 1
 mygrid[1][0].write("""
 Teaching Excellence Award 2022 - Award received by the Knight Foundation School of Computing and Information Sciences
-at Florida International University, Miami, FL, on December 6th 2022.
+at Florida International University, Miami, FL, on December 6th 2022. Dr Gregory Murad Reis
+has been teaching for 20 years, having taught courses in Computer Science, Mathematics, Robotics,
+and Data Science domains. Dr Murad Reis has taught to a diverse audience, including children, 
+teenagers, undergraduate and graduate students, and teachers, in two countries: the USA and
+Brazil.
+
 """)
 
 mygrid[1][1].write("""
@@ -77,6 +87,15 @@ This special covered the relentless efforts to rescue Biscayne Bay in Florida.
   This special was aired on WPLG Local 10 News in Miami, FL, on Friday, April 2nd at 5:30pm. [Source](https://www.local10.com/news/local/2021/04/02/saving-biscayne-bay-researchers-worry-about-risk-of-another-fish-kill-this-summer/)
 """)
 
+mygrid[1][3].write("""
+Dr Gregory Murad Reis was invited to be a keynote speaker at the 2021 Board of Trustees Meeting
+at Florida International University focused on Environmental Resilience. Dr. Murad Reis
+explained about the strengths of FIU in this area and explained how FIU can become a leader
+in Environmental Resilience in South Florida by developing the future tools, algorithms, 
+methods, infrastructure and most importantly, the next era of know-how. 
+[Source](https://trustees.fiu.edu/_assets/docs/minutes_workshop_3.19.21_all-docs-and-presentation-compressed.pdf)
+""")
+
 # ROW 2
 mygrid[2][0].image("Images/IMG_7404.jpg")
 
@@ -84,9 +103,14 @@ mygrid[2][1].image("Images/IMG_7429.jpg")
 
 mygrid[2][2].image("Images/3_robot_2.jpg")
 
+mygrid[2][3].image("Images/bot2021.png")
+
+
 # ROW 3
 mygrid[3][0].video("https://www.youtube.com/watch?v=ip-NsjxCfNg&feature=emb_title&ab_channel=GregoryMuradReis")
 
 mygrid[3][1].video("https://www.youtube.com/watch?v=j82pP18wFe8&ab_channel=Mongabay")
 
 mygrid[3][2].video("https://www.youtube.com/watch?v=qOFmkouoJXM&ab_channel=GregoryMuradReis")
+
+mygrid[3][3].video("https://www.youtube.com/watch?v=4K3JPYANzfQ&ab_channel=GregoryMuradReis")

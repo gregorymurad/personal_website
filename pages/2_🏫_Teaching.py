@@ -38,21 +38,36 @@ def plot_charts(df,course_name):
 cop4555 = pd.read_csv("Logs/Courses/cop4555-Table 1.csv")
 plot_charts(cop4555,"COP 4555 - Principles of Programming Languages")
 
+cop4555_score = cop4555["Overall Assessment"].sum()/cop4555["Overall Assessment"].size
+st.write("My COP4555 average score is currently {:.1f} out of 5.0.".format(cop4555_score))
+
 # cop4814 Plots
 cop4814 = pd.read_csv("Logs/Courses/cop4814-Table 1.csv")
 plot_charts(cop4814, "COP 4814 - Component-Based Software Development")
+
+cop4814_score = cop4814["Overall Assessment"].sum()/cop4814["Overall Assessment"].size
+st.write("My COP4814 average score is currently {:.1f} out of 5.0.".format(cop4814_score))
 
 # cap4104 Plots
 cap4104 = pd.read_csv("Logs/Courses/cap4104-Table 1.csv")
 plot_charts(cap4104, "CAP 4104 - Human-Computer Interaction for Computer Science")
 
+cap4104_score = cap4104["Overall Assessment"].sum()/cap4104["Overall Assessment"].size
+st.write("My CAP4104 average score is currently {:.1f} out of 5.0.".format(cap4104_score))
+
 # cen3721 Plots
 cen3721 = pd.read_csv("Logs/Courses/cen3721-Table 1.csv")
 plot_charts(cen3721, "CEN 3721 - Introduction to Human-Computer Interaction")
 
+cen3721_score = cen3721["Overall Assessment"].sum()/cen3721["Overall Assessment"].size
+st.write("My CEN3721 average score is currently {:.1f} out of 5.0.".format(cen3721_score))
+
 # cop4813 Plots
 cop4813 = pd.read_csv("Logs/Courses/cop4813-Table 1.csv")
 plot_charts(cop4813, "Web Application Programming")
+
+cop4813_score = cop4813["Overall Assessment"].sum()/cop4813["Overall Assessment"].size
+st.write("My COP4813 average score is currently {:.1f} out of 5.0.".format(cop4813_score))
 
 overall_score_df = pd.DataFrame(cop4555["Overall Assessment"]
                              .append(cop4814["Overall Assessment"])
@@ -61,11 +76,40 @@ overall_score_df = pd.DataFrame(cop4555["Overall Assessment"]
                              .append(cop4813["Overall Assessment"]))
 # st.dataframe(overall_score_df.reset_index())
 overall_score=overall_score_df["Overall Assessment"].sum()/overall_score_df["Overall Assessment"].size
-st.write("My overall score is currently {:.1f} out of 5.0.".format(overall_score))
+st.write("My overall score across all courses is currently {:.1f} out of 5.0.".format(overall_score))
 st.markdown("---")
 st.subheader("Courses Taught")
 courses_taught = pd.read_csv("Logs/Courses/Courses Taught.csv")
 st.dataframe(courses_taught)
+
+st.markdown("---")
+st.subheader("Ranking for the Most Frequently Taught Courses")
+# Using pivot table method to rank the most taught courses. The output is a SERIES
+# where the index column is the course name and the other column is the integer
+# representing how many times I have taught this course
+rate_most_taught_courses = courses_taught.pivot_table(columns=["Course Name"], aggfunc='size')
+
+# Turning series into df and naming the columns
+rate_most_taught_courses_df = rate_most_taught_courses.to_frame().reset_index()
+rate_most_taught_courses_df.columns = ["Course Name","Count"]
+
+# Sorting in descending order
+rate_most_taught_courses_df=rate_most_taught_courses_df.sort_values(by=['Count'],ascending=False)
+st.dataframe(rate_most_taught_courses_df)
+
+# Plotting the histogram
+plot_courses_taught = px.histogram(rate_most_taught_courses_df,x="Course Name",y="Count")
+plot_courses_taught.update_traces(marker_color='green')
+plot_courses_taught.update_layout(
+            title="Greg's Most Taught Courses",
+            yaxis_title="Number of Times Taught",
+            font=dict(
+                size=7),
+            title_font_color="#74DCBE",
+            title_font_size=20)
+plot_courses_taught.update_yaxes(automargin='height')
+st.plotly_chart(plot_courses_taught,use_container_width=True)
+
 st.markdown("---")
 st.subheader("Teaching Philosophy")
 st.markdown(

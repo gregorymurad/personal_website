@@ -10,6 +10,7 @@ import pandas as pd
 import plotly.express as px
 
 
+
 st.set_page_config(layout="wide",page_icon="🦋",)
 
 page_bg_img = f"""
@@ -190,11 +191,11 @@ def generate_plot(tuples_freq_dist,title):
 st.header("Most Used Words Overall 🎤")
 all_lyrics = get_lyrics()
 all_lyrics_freq_dist = generate_frequency_distribution(all_lyrics)
-
+st.write(all_lyrics_freq_dist)
 word_length = st.slider('Select the minimum word length', 0, 12, 2)
 
 filtered_by_length = filter_by_length(all_lyrics_freq_dist,word_length)
-
+st.write(filtered_by_length)
 generate_plot(filtered_by_length,"Most Frequent Used Words")
 
 st.markdown("---")

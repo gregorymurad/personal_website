@@ -281,6 +281,7 @@ def mission(dataset):
                  "ODO (mg/L)": "concentration of molecular oxygen (02) dissolved in water."
                  })
 
+
     st.header("Images")
     photo1, photo2 = st.columns(2)
     with photo1:
@@ -339,6 +340,7 @@ if loc_option == "Biscayne Bay":
         if ds_option:
             # get the value of a variable given its name in a string
             var = locals()['bbc_' + ds_option]
+            st.write(var)
             mission(var)
 elif loc_option == "Little River":
     ds_data = st.sidebar.selectbox("Select a Date:", options=["October 4th 2020", "October 3rd 2020"])

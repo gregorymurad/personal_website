@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_timeline import st_timeline
 
 
 st.set_page_config(page_icon="🦋")
